@@ -1,0 +1,116 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #A19B88;
+}
+
+
+/*Inicio Menu*/
+.menu ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.sub_menu, .sub_menu1, .sub_menu2 {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.sub_sub_menu li, .sub_sub_menu1 li{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+/*Fim&& Menu*/
+
+/* Login... */
+
+.painel_login{
+    margin: auto;
+    height: auto;
+    width: 350px;
+    background-color: #3E3F41;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 15px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.box{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+.box h1{
+    flex-direction: row;
+}
+
+.apresentar{
+    padding: 15px;
+    width: auto;
+    height: auto;
+    background-color: #3E3F41;
+    color: #fff;
+    border-radius: 15px;
+}
+
+
+/* Fim Login...*/
+
+/* Inicio Listagem do Lançamento */
+.box2{
+    margin-top: 5%;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+
+.tabela{
+    background-color: #3E3F41;
+    color: #fff;
+    max-width: 80%;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tabela2{
+    background-color: #3E3F41;
+    color: #fff;
+    min-width: 60%;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Fim Listagem do Lançamento */
+
+/* Inicio Lançamento */
+
+.form_fun{
+    border-radius: 15px;
+    background-color: #3E3F41;
+    color: #fff;
+}
+.form_fun form{
+    padding: 15px;
+}
+.form_fun button{
+    border: #A19B88 solid;
+}
+
+/* Fim Lançamento */
+
